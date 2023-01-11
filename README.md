@@ -22,7 +22,7 @@ Analiza logów jest przedstawiana w łatwej do odczytania postaci graficznej.</p
 <p align="justify">Kolejno system czyszczenia alertów czyli przekierowywanie ich do archiwum (oczywiście już po zakończeniu obsługi incydentu) lub usuwanie ich permanentnie, jeśli okażą się nieistotne dla funkcjonowania systemu. Tworzenie „kalendarza alertów” zwanego również osią czasu, w  którym znajdzie się pełen opis zaistniałego zdarzenia tj. czas, data, kto przyjął zgłoszenie, jakie kroki zostały podjęte, kiedy zakończono obsługę incydentu, jakie powstały ewentualne szkody itp. Ułatwi to zespołowi zrozumienie co się stało i umożliwi przejecie obsługi incydentu przez innego użytkownika gdyby zaistniała taka potrzeba.</p>
 <p align="justify">Biorąc pod uwagę założenia biznesowe atrakcyjną funkcją będą powiadomienia SMS lub email. Mogą informować nie tylko administratora o potencjalnym problemie ale również inne osoby funkcyjne takie jak kierownika bądź też dowódcę. Zapewnia to szybki przepływ informacji oraz pewność zostania poinformowanym o tym, co dzieje się w systemie.</p>
 <p align="justify">Dodatkowo niezawodność systemu, bo przecież klient płaci spore pieniądze i oczekuje dobrego funkcjonowania systemu. Przez przerwy w pracy systemu klient może ponieść duże straty nie tylko materialne, ale w tym przypadku również istotne z punktu widzenia bezpieczeństwa.</p>
- <p align="justify"> Raportowanie: 
+ 
 <br>
 <h1>MODUŁ RAPORTOWANIA:</h1>
 <p align="justify">Moduł raportowania w zakresie SIEM umożliwia użytkownikom odnalezienie ich danych, takich jak aktywność użytkownika z domen zewnętrznych, operacyjną kontrole zmian oraz zmiany i wygaśnięcia hasła.
