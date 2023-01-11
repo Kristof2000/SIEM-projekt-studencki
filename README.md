@@ -13,3 +13,5 @@ System pozwala definiować korelację zdarzeń występujących w środowisku. Tw
 Rezultaty analizy wysłane są do systemowego modułu alertowania. 
 W kategorii bezpieczeństwa, program zapewnia dostęp do wszystkich logów i ich nie nadpisuje. 
 Analiza logów jest przedstawiana w łatwej do odczytania postaci graficznej.
+<br>
+Moduł alertowy jest to to moduł przeznaczony do przetwarzania informacji, jakie otrzyma z modułu analizy logów oraz ich interpretacji. Jest to kluczowy element systemu, gdyż to właśnie tu zapada decyzja (na podstawie reguł korelacyjnych), czy mamy do czynienia z atakiem i czy trzeba wystawić alert. Zatem do podstawowych wymagań bezpieczeństwa należeć będą wysokiej klasy reguły korelacyjne, ponieważ to głównej mierze od nich zależy bezpieczeństwo całego systemu informatycznego klienta. Innym ważnym elementem będzie testowanie alertu, aby mieć pewność, że moduł nie zawiedzie kiedy będzie potrzebny.
