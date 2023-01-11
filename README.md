@@ -2,7 +2,7 @@
 <p>SIEM jest skrótem od Security Information and Event Management. Jednocześnie bada, analizuje i monitoruje wszystkie działania w sieci. Szybko znajduje zagrożenia i pozwala na natychmiastową reakcję. W tym samym czasie sprawdza informacje z różnych źródeł – zapór, serwerów, routerów, logów, analizuje oraz przewiduje, ekspresowo alarmuje, dzięki czemu możliwe jest szybkie działanie.<br>
 Naszym celem jest stworzenie najlepszego oprogramowania na potrzeby Sił Zbrojnych RP.</p>
 
-ANALIZA LOGÓW: 
+<h1>ANALIZA LOGÓW:</h1> 
 Zbieranie i analiza logów komputera oraz urządzeń z dostępem do sieci może znacznie pomóc przy rozwiązywaniu problemów dotyczących bezpieczeństwa informacji, zarządzania operacjami, monitorowania i lokalizacji problemów systemu, a także w audytach zgodności. W logach systemowych zapisywane są dowody naruszenia bezpieczeństwa systemu komputerowego. Analizowanie logów umożliwia wczesne wykrywanie zagrożeń. System zarządzania logami umożliwia dokładniejsze lokalizowanie błędów i zapewnia zgodność 
 z obowiązującymi przepisami. Moduł do analizy logów ma dostęp do firewall’a, ruchu sieciowego oraz do zdarzeń w chmurze. 
 Logi są przetwarzane do jednego wspólnego formatu, grupowane i  gromadzone 
@@ -14,4 +14,6 @@ Rezultaty analizy wysłane są do systemowego modułu alertowania.
 W kategorii bezpieczeństwa, program zapewnia dostęp do wszystkich logów i ich nie nadpisuje. 
 Analiza logów jest przedstawiana w łatwej do odczytania postaci graficznej.
 <br>
-Moduł alertowy jest to to moduł przeznaczony do przetwarzania informacji, jakie otrzyma z modułu analizy logów oraz ich interpretacji. Jest to kluczowy element systemu, gdyż to właśnie tu zapada decyzja (na podstawie reguł korelacyjnych), czy mamy do czynienia z atakiem i czy trzeba wystawić alert. Zatem do podstawowych wymagań bezpieczeństwa należeć będą wysokiej klasy reguły korelacyjne, ponieważ to głównej mierze od nich zależy bezpieczeństwo całego systemu informatycznego klienta. Innym ważnym elementem będzie testowanie alertu, aby mieć pewność, że moduł nie zawiedzie kiedy będzie potrzebny.
+<h1>MODUŁ ALERTOWY:</h1> 
+<p>Jest to to moduł przeznaczony do przetwarzania informacji, jakie otrzyma z modułu analizy logów oraz ich interpretacji. Jest to kluczowy element systemu, gdyż to właśnie tu zapada decyzja (na podstawie reguł korelacyjnych), czy mamy do czynienia z atakiem i czy trzeba wystawić alert. Zatem do podstawowych wymagań bezpieczeństwa należeć będą wysokiej klasy reguły korelacyjne, ponieważ to głównej mierze od nich zależy bezpieczeństwo całego systemu informatycznego klienta. Innym ważnym elementem będzie testowanie alertu, aby mieć pewność, że moduł nie zawiedzie kiedy będzie potrzebny.</p>
+<p>Dodatkowo możliwość ustalenia winowajcy incydentu – czy jest to wina pracownika, błąd w kodzie systemu czy też zewnętrzny atak na system. Następnie kolejny kluczowy aspekt to możliwość reakcji na podstawowe ataki typu phishing lub DDoS – system oczywiście poinformuje o zaistniałej sytuacji w formie alertu, jednak sam automatycznie podejmie kroki zapobiegawcze (przykładowo ostrzeże użytkownika o podejrzanym mailu, który prawdopodobnie próbuje wyłudzić jego dane lub zablokuje takiego maila – w zależności od upodobania klienta).</p>
